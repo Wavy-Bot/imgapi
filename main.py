@@ -9,7 +9,7 @@ from pydantic import BaseModel
 from images import jail, pet
 
 # Disable docs because we are not using it
-__version__ = "1.0.0-alpha.1"
+__version__ = "1.0.0-alpha.2"
 app = FastAPI(openapi_url=None, version=__version__)
 
 
